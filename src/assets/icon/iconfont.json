@@ -1,0 +1,142 @@
+{
+  "id": "5030860",
+  "name": "easyjob-front-admin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "33519",
+      "name": "home_fill",
+      "font_class": "homefill",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "109772",
+      "name": "phone",
+      "font_class": "phone",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "240135",
+      "name": "upload",
+      "font_class": "upload",
+      "unicode": "e75d",
+      "unicode_decimal": 59229
+    },
+    {
+      "icon_id": "553324",
+      "name": "验证 验证码",
+      "font_class": "yanzhengyanzhengma",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "577315",
+      "name": "减号",
+      "font_class": "jianhao",
+      "unicode": "e729",
+      "unicode_decimal": 59177
+    },
+    {
+      "icon_id": "1225391",
+      "name": "down",
+      "font_class": "down",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "1225393",
+      "name": "up",
+      "font_class": "up",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "1262342",
+      "name": "users",
+      "font_class": "users",
+      "unicode": "e730",
+      "unicode_decimal": 59184
+    },
+    {
+      "icon_id": "1479139",
+      "name": "ic_phone_iphone",
+      "font_class": "ic_phone_iphone",
+      "unicode": "e9ef",
+      "unicode_decimal": 59887
+    },
+    {
+      "icon_id": "1727541",
+      "name": "308上一页、后退、返回",
+      "font_class": "shangyiyehoutuifanhui",
+      "unicode": "e8ef",
+      "unicode_decimal": 59631
+    },
+    {
+      "icon_id": "1727542",
+      "name": "309下一页、前进、查看更多",
+      "font_class": "xiayiyeqianjinchakangengduo",
+      "unicode": "e8f1",
+      "unicode_decimal": 59633
+    },
+    {
+      "icon_id": "3216589",
+      "name": "更多内容",
+      "font_class": "gengduoneirong",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "4767031",
+      "name": "download",
+      "font_class": "download",
+      "unicode": "e7ef",
+      "unicode_decimal": 59375
+    },
+    {
+      "icon_id": "4942640",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "5302975",
+      "name": "题库",
+      "font_class": "tiku",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "11215263",
+      "name": "more",
+      "font_class": "more",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "12779504",
+      "name": "password",
+      "font_class": "password",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "14151842",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "34453055",
+      "name": "settings-fill",
+      "font_class": "settings-fill",
+      "unicode": "e840",
+      "unicode_decimal": 59456
+    }
+  ]
+}
