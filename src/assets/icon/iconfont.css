@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 5030860 */
-  src: url('iconfont.woff2?t=1758818811556') format('woff2'),
-       url('iconfont.woff?t=1758818811556') format('woff'),
-       url('iconfont.ttf?t=1758818811556') format('truetype');
+  src: url('iconfont.woff2?t=1758911132027') format('woff2'),
+       url('iconfont.woff?t=1758911132027') format('woff'),
+       url('iconfont.ttf?t=1758911132027') format('truetype');
 }
 
 .iconfont {
@@ -13,7 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-homefill:before {
+.icon-home:before {
   content: "\e6bb";
 }
 
@@ -45,7 +45,7 @@
   content: "\e730";
 }
 
-.icon-ic_phone_iphone:before {
+.icon-app:before {
   content: "\e9ef";
 }
 
@@ -57,7 +57,7 @@
   content: "\e8f1";
 }
 
-.icon-gengduoneirong:before {
+.icon-content:before {
   content: "\e685";
 }
 
@@ -85,7 +85,7 @@
   content: "\e632";
 }
 
-.icon-settings-fill:before {
+.icon-settings:before {
   content: "\e840";
 }
 

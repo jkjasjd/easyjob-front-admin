@@ -4,10 +4,8 @@
             <div class="shape"></div>
             <div class="shape"></div>
         </div>
-
         <el-form class="login-form" :model="formData" :rules="rules" ref="formDataRef" @submit.prevent="">
             <h3>Login Here</h3>
-
             <el-form-item prop="phone">
                 <el-input size="large" clearable placeholder="请输入手机号" v-model.trim="formData.phone">
                     <template #prefix>
@@ -23,7 +21,6 @@
                     </template>
                 </el-input>
             </el-form-item>
-
             <el-form-item prop="checkCode">
                 <div class="check-code-panel">
                     <el-input size="large" clearable placeholder="请输入验证码" v-model.trim="formData.checkCode">
@@ -52,8 +49,12 @@ import { loginAPI } from "@/api/user";
 import md5 from "js-md5";
 import { useRouter } from "vue-router";
 import { ElMessage } from "element-plus";
-const router=useRouter()
+
+//通过 getCurrentInstance 获取当前组件实例的 proxy 对象
 const { proxy } = getCurrentInstance();
+
+const router = useRouter()
+//表单
 const formData = ref({});
 const formDataRef = ref();
 const rules = {
@@ -69,23 +70,25 @@ const changeCheckCode = () => { // 这里传入实际的查询参数
     checkCodeUrl.value = `${apiUrl}?time=${new Date().getTime()}`
 }
 
+//登录
 const doSubmit = () => {
+    //表单校验
     formDataRef.value.validate(async (valid) => {
         if (!valid) {
             return
         }
         const params = { ...formData.value }
+        //密码加密
         let cookieLoginInfo = proxy.VueCookies.get('loginInfo')
         let cookiePassword = cookieLoginInfo == null ? null : cookieLoginInfo.password
         if (params.password !== cookiePassword) {
             params.password = md5(params.password)
         }
         const result = await loginAPI(params)
-        console.log(result);
-
         if (!result) {
             return
         }
+        //记住我
         if (params.rememberMe) {
             const loginInfo = {
                 phone: params.phone,
@@ -107,6 +110,7 @@ const doSubmit = () => {
 };
 onMounted(() => {
     changeCheckCode()
+    //重置表单字段
     formDataRef.value.resetFields()
     formData.value = {}
     const cookieLoginInfo = proxy.VueCookies.get('loginInfo')

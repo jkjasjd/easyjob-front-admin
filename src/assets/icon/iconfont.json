@@ -8,7 +8,7 @@
     {
       "icon_id": "33519",
       "name": "home_fill",
-      "font_class": "homefill",
+      "font_class": "home",
       "unicode": "e6bb",
       "unicode_decimal": 59067
     },
@@ -64,7 +64,7 @@
     {
       "icon_id": "1479139",
       "name": "ic_phone_iphone",
-      "font_class": "ic_phone_iphone",
+      "font_class": "app",
       "unicode": "e9ef",
       "unicode_decimal": 59887
     },
@@ -85,7 +85,7 @@
     {
       "icon_id": "3216589",
       "name": "更多内容",
-      "font_class": "gengduoneirong",
+      "font_class": "content",
       "unicode": "e685",
       "unicode_decimal": 59013
     },
@@ -134,7 +134,7 @@
     {
       "icon_id": "34453055",
       "name": "settings-fill",
-      "font_class": "settings-fill",
+      "font_class": "settings",
       "unicode": "e840",
       "unicode_decimal": 59456
     }
